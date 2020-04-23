@@ -1202,7 +1202,7 @@ int main(int argc, char **argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     if (!rank && argc != 2) {
-      std::cout << "USAGE: conflux <N>" << std::endl;
+      std::cout << "USAGE: LUP <N>" << std::endl;
       return 1;
     }
     
